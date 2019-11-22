@@ -1,0 +1,171 @@
+
+.wrapter{
+	background-position: center;
+	background-image:url(images/Фон1.png);
+}
+.header{
+	
+
+}
+.container{
+
+	width: 100%;
+	display: flex;
+	margin:5px;
+}
+.header__left{
+	width: 20%;
+	display: flex;
+	justify-content: left;
+	margin: auto;
+}
+.logo{
+	font-size: 24px;
+	line-height: 21px;
+	color: #ffffff;
+	font-family: "Museo Sans Cyrl";
+	text-transform: uppercase;
+}
+.header__center{
+	width: 60%
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+.nav{
+
+}
+.nav__list{
+	list-style: none;
+	padding-left: 0;
+
+
+
+}
+.nav__item{
+	display: inline;
+	margin: 10px;
+}
+.nav__link{
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 30px;
+	color: white;
+	font-family: "Alegreya Sans";
+	font-weight: 400;
+	text-align: right;
+}
+.nav__title{
+
+}
+.header__right{
+	width: 20%;
+	display: flex;
+	margin: auto;
+}
+.phone__pic{
+
+}
+.phone__numb{
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;
+	font-family: "Alegreya Sans";
+	font-weight: 400;
+
+}
+.content{
+	display: flex;
+	margin:5px;
+}
+.page{
+	width:50%;
+	justify-content: right;
+
+
+}
+.product{
+	margin:5px;
+}
+.title{
+	margin:5px;
+	font-size: 60px;
+	line-height: 60px;
+	color: #ffffff;
+	font-family: "Alegreya Sans";
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.product__offer{
+	margin:5px;
+	font-size: 21px;
+	color: #ffffff;
+	font-family: "Alegreya Sans";
+	font-weight: 400;
+}
+.product__btn{
+	margin:5px;
+	width: 157px;
+	height: 59px;
+	background-color: white;
+	border-radius: 20px;
+	text-align: center;
+}
+.order-btn{
+	font-size: 19px;
+	color: #0f5a47;
+	font-family: "Alegreya Sans";
+	font-weight: 800;
+	text-decoration: none;
+	text-transform: uppercase;
+
+
+
+}
+.advantages{
+	display: flex;
+	width: 90%;
+	display: flex;
+	
+}
+.advantages__item{
+	display: flex;
+	margin: 10px
+
+	
+}
+.advantages__item--pic{
+	width: 42px;
+	height: 42px;
+	
+}
+.advantages__item--content{
+	font-size: 21px;
+	color: #ffffff;
+	font-family: "Alegreya Sans";
+	font-weight: 400;
+
+}
+.sidebar{
+	width:50%;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 15px;
+}
+.aside{
+
+}
+.sidebar__nav{
+
+
+}
+.sidebar__nav__list{
+	list-style-type: none;
+}
+.sidebar__nav__list--item{
+	width: 6px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: #ffffff;
+
+}
